@@ -2,7 +2,7 @@ import XCTest
 import LULUKit
 
 
-final class LULUKit: XCTestCase {
+final class MyLibraryNameTests: XCTestCase {
     internal typealias SystemUnderTest = MyLibraryName
 
     internal var sut: SystemUnderTest!
@@ -10,7 +10,7 @@ final class LULUKit: XCTestCase {
 
 
 // MARK: - Lifecycle
-extension LULUKit {
+extension MyLibraryNameTests {
 
     override func setUp() async throws {
         // Put setup code here.
@@ -36,7 +36,7 @@ extension LULUKit {
 
 
 // MARK: - Factories
-extension LULUKit {
+extension MyLibraryNameTests {
 
     internal func makeSUT() -> SystemUnderTest {
         .init(
@@ -54,7 +54,7 @@ extension LULUKit {
 
 
 // MARK: - "Given" Helpers (Conditions Exist)
-extension LULUKit {
+extension MyLibraryNameTests {
 
     internal func givenSomething() {
         // some state or condition is established
@@ -63,7 +63,7 @@ extension LULUKit {
 
 
 // MARK: - "When" Helpers (Actions Are Performed)
-extension LULUKit {
+extension MyLibraryNameTests {
 
     internal func whenSomethingHappens() {
         // perform some action
@@ -72,7 +72,7 @@ extension LULUKit {
 
 
 // MARK: - Test - Init with Default Properties
-extension LULUKit {
+extension MyLibraryNameTests {
 
     func test_Init_WhenCreatingWithDefaultProperties_ItSetsTextToExpectedValues() async throws {
         let expected = "Hello, World!"
