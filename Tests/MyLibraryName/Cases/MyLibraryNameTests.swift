@@ -1,5 +1,5 @@
 import XCTest
-import MyLibraryName
+import LULUKit
 
 
 final class MyLibraryNameTests: XCTestCase {
